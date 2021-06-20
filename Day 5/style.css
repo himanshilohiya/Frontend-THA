@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+.main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+   
+  
+
+}
+.container {
+  height: 300px;
+  width: 300px;
+ 
+  
+   
+  
+}
+button{
+    height: 50px;
+    width: 80px;
+    margin: 12px 5px;
+    font-size: 18px;
+
+    
+
+}
+.flex-container
+{
+  display: flex;
+
+}
+.txt1,.txt2
+{
+  height:50px;
+  width: 300px;
+  padding-left: 10px;
+  font-size: 20px;
+  
+}
+p,label{
+  font-size: 20px;
+}
+
+.txt2{
+  margin-top: 10px;
+}
+
+

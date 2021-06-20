@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    
+  }
+  .main {
+    height: 400px;
+    width: 400px;
+    display: grid;
+    background-color: rgb(226, 43, 43);
+    grid-column-gap: 0;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+  }
+  .box {
+    border: solid 1px rgba(0, 0, 0, 0.281);
+    padding: 2px;
+  }
+  .chgclr {
+    background: #fff;
+    
+}
+  
