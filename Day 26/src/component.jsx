@@ -24,7 +24,7 @@ const Input = () => {
             onChange={(e) => dispatch(Email(e.target.value))}
           />
         </div>
-        <h1 className="heading">Display here</h1>
+        <h1 className="heading">Display area</h1>
         <h2>
           Username: <span>{userName}</span>
         </h2>
